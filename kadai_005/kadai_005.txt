@@ -1,0 +1,29 @@
+PS C:\Users\h9kho\OneDrive\Desktop> mkdir git_challenge
+
+
+    ディレクトリ: C:\Users\h9kho
+    \OneDrive\Desktop
+
+
+Mode               LastWriteTime
+----               -------------
+d-----      2025/04/11     10:21
+
+
+PS C:\Users\h9kho\OneDrive\Desktop> cd git_challenge
+PS C:\Users\h9kho\OneDrive\Desktop\git_challenge> echo "hello world" >> hello_world.txt
+PS C:\Users\h9kho\OneDrive\Desktop\git_challenge> git add hello_world.txt
+fatal: not a git repository (or any of the parent directories): .git
+PS C:\Users\h9kho\OneDrive\Desktop\git_challenge> git init
+Initialized empty Git repository in C:/Users/h9kho/OneDrive/Desktop/git_challenge/.git/
+PS C:\Users\h9kho\OneDrive\Desktop\git_challenge> git add hello_world.txt
+PS C:\Users\h9kho\OneDrive\Desktop\git_challenge> git commit -m"最初のコミット"
+[main (root-commit) fd9196e] 最初のコミット
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 hello_world.txt
+PS C:\Users\h9kho\OneDrive\Desktop\git_challenge> echo "こんにちは" >> hello_world.txt
+PS C:\Users\h9kho\OneDrive\Desktop\git_challenge> git add hello_world.txt
+PS C:\Users\h9kho\OneDrive\Desktop\git_challenge> git commit -m"2 回目コミット"
+[main a1a879a] 2回目コミット
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+PS C:\Users\h9kho\OneDrive\Desktop\git_challenge>
