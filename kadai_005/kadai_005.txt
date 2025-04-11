@@ -1,0 +1,14 @@
+PS C:\Users\h9kho\OneDrive\Desktop\git_challenge> git add -A
+PS C:\Users\h9kho\OneDrive\Desktop\git_challenge> git commit -m"最初のコミット"       
+[sub 4092782] 最初のコミット
+ 1 file changed, 1 insertion(+), 2 deletions(-)
+PS C:\Users\h9kho\OneDrive\Desktop\git_challenge> git add -A
+PS C:\Users\h9kho\OneDrive\Desktop\git_challenge> git commit -m"2回目のコミット"      
+[sub 6ab6890] 2回目のコミット
+ 1 file changed, 2 insertions(+), 1 deletion(-)
+PS C:\Users\h9kho\OneDrive\Desktop\git_challenge> git log --oneline
+6ab6890 (HEAD -> sub) 2回目のコミット
+4092782 最初のコミット
+2d87377 (origin/sub) third commit
+0199230 second commit
+633c298 (origin/main, main) Create hello_world.txt
