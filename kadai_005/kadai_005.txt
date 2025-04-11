@@ -1,0 +1,30 @@
+PS C:\Users\h9kho\OneDrive\Desktop> mkdir git_challenge
+
+
+    ディレクトリ: C:\Users\h9kho
+    \OneDrive\Desktop
+
+
+Mode               LastWriteTime
+----               -------------
+d-----      2025/04/11     10:36
+
+
+PS C:\Users\h9kho\OneDrive\Desktop> cd git_challenge
+PS C:\Users\h9kho\OneDrive\Desktop\git_challenge> git init
+Initialized empty Git repository in C:/Users/h9kho/OneDrive/Desktop/git_challenge/.git/
+PS C:\Users\h9kho\OneDrive\Desktop\git_challenge> echo "Hello, world!" >> hello_world.txt
+PS C:\Users\h9kho\OneDrive\Desktop\git_challenge> git add hello_world.txt
+PS C:\Users\h9kho\OneDrive\Desktop\git_challenge> git commit -m"1 回目"
+[main (root-commit) a438c71] 1回 目
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 hello_world.txt
+PS C:\Users\h9kho\OneDrive\Desktop\git_challenge> echo "こんにちは、世界！" >> hello_world.txt
+PS C:\Users\h9kho\OneDrive\Desktop\git_challenge> git add hello_world.txt
+PS C:\Users\h9kho\OneDrive\Desktop\git_challenge> git commit -m"2 回目"
+[main 2f0b9f3] 2回目
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+PS C:\Users\h9kho\OneDrive\Desktop\git_challenge> git log --oneline
+2f0b9f3 (HEAD -> main) 2回目
+a438c71 1回目
+PS C:\Users\h9kho\OneDrive\Desktop\git_challenge>
